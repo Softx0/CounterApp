@@ -1,21 +1,35 @@
 import React, { useState } from 'react'
-import { StyleSheet, Text, View, Button } from 'react-native'
+import { StyleSheet, Text, View, Button, TouchableOpacity } from 'react-native'
+import FloatingActionButton from '../components/FloatingActionButton';
 
 const ContadorScreen = () => {
 
     const [counter, setCounter] = useState(0);
 
 
-
     return (
-        <View style={styles.View} >
-            <Text style={styles.Text} >Contador: {counter}</Text>
+        <View style={styles.view} >
+            <Text style={styles.text} >Contador: {counter}</Text>
 
-            <Button
-                color="#ffbd34"
+            <FloatingActionButton
+                title="+"
                 onPress={() => setCounter(counter + 1)}
-                title="Contador" >
-            </Button>
+
+            ></FloatingActionButton>
+
+            <FloatingActionButton
+                title="-"
+                onPress={() => setCounter(counter - 1)}
+            ></FloatingActionButton>
+
+            {/* <TouchableOpacity
+                style={styles.locationFABL}
+                onPress={() => setCounter(counter - 1)}
+            >
+                <View style={styles.botonFAB} >
+                    <Text style={styles.textFAB} >-</Text>
+                </View>
+            </TouchableOpacity> */}
         </View>
     )
 }
@@ -23,12 +37,22 @@ const ContadorScreen = () => {
 export default ContadorScreen
 
 const styles = StyleSheet.create({
-    View: {
+    view: {
         flex: 1,
         justifyContent: 'center'
     },
-    Text: {
+    text: {
         textAlign: 'center',
         fontSize: 26
-    }
+    },
+    locationFABR: {
+        position: 'absolute',
+        bottom: 49,
+        right: 49,
+    },
+    locationFABL: {
+        position: 'absolute',
+        bottom: 49,
+        left: 49,
+    },
 })
