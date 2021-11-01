@@ -13,12 +13,15 @@ const ContadorScreen = () => {
 
             <FloatingActionButton
                 title="+"
-                onPress={() => setCounter(counter + 1)}
+                position='bottomRight'
+                onPress={() => setCounter(counter + 1)
+                }
 
             ></FloatingActionButton>
 
             <FloatingActionButton
                 title="-"
+                position='bottomLeft'
                 onPress={() => setCounter(counter - 1)}
             ></FloatingActionButton>
 
