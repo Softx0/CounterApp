@@ -24,15 +24,6 @@ const ContadorScreen = () => {
                 position='bottomLeft'
                 onPress={() => setCounter(counter - 1)}
             ></FloatingActionButton>
-
-            {/* <TouchableOpacity
-                style={styles.locationFABL}
-                onPress={() => setCounter(counter - 1)}
-            >
-                <View style={styles.botonFAB} >
-                    <Text style={styles.textFAB} >-</Text>
-                </View>
-            </TouchableOpacity> */}
         </View>
     )
 }

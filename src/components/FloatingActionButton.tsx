@@ -50,16 +50,7 @@ const styles = StyleSheet.create({
 
     locationFAB: {
         position: 'absolute',
-        bottom: 49,
-        shadowColor: "#000",
-        shadowOffset: {
-            width: 0,
-            height: 4,
-        },
-        shadowOpacity: 0.32,
-        shadowRadius: 5.46,
-
-        elevation: 9,
+        bottom: 49
     },
     rightSide: {
         right: 25
@@ -73,6 +64,14 @@ const styles = StyleSheet.create({
         height: 60,
         borderRadius: 100,
         justifyContent: 'center',
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 4,
+        },
+        shadowOpacity: 0.32,
+        shadowRadius: 5.46,
+        elevation: 9,
     },
     textFAB: {
         color: 'white',
