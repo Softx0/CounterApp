@@ -3,8 +3,8 @@ import { View, Text, StyleSheet } from 'react-native'
 
 const DesignScreen = () => {
     return (
-        <View>
-            <Text> Hola mundo! This is BoxObjectModel</Text>
+        <View style={styles.container}>
+            <Text style={styles.text} > Hola mundo! This is BoxObjectModel</Text>
         </View>
     )
 }
@@ -12,8 +12,18 @@ const DesignScreen = () => {
 export default DesignScreen;
 
 const styles = StyleSheet.create({
-    view: {
+    container: {
         flex: 1,
-        justifyContent: 'center'
+        backgroundColor: 'red',
+        padding: 20
     },
+    text: {
+        fontSize:20,
+        // width: 150,
+        padding: 10,
+        margin: 20,
+        borderWidth:10
+        // backgroundColor: 'red'
+    },
+
 })
