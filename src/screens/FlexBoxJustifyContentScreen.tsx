@@ -15,27 +15,31 @@ const FlexBoxJustifyContentScreen = () => {
 
 export default FlexBoxJustifyContentScreen
 
-//Por defecto defecto flex y flexDirection viene en column 
+//Ahora practicando con justifyContent
+
+// Cuando hacemos un justifyContent: 'center', se refiere a que los 
+// hijos de ese componente estaran en el medio pero en el medio del componente padre no de la pantalla
 const styles = StyleSheet.create({
     container: {
         flex: 1,
+        // height: 300,
         backgroundColor: '#5856D6',
-        flexDirection: 'column-reverse'
+        justifyContent: 'space-evenly'
     },
     caja1: {
-        flex: 2,
+        
         borderWidth: 2,
         borderColor: 'white',
         fontSize: 30
     },
     caja2: {
-        flex: 1,
+        
         borderWidth: 2,
         borderColor: 'white',
         fontSize: 30
     },
     caja3: {
-        flex: 4,
+        
         borderWidth: 2,
         borderColor: 'white',
         fontSize: 30
