@@ -14,6 +14,7 @@ import PositionScreen from './src/screens/PositionScreen';
 import TareaScreen01 from './src/screens/DesignHomeWork/TareaScreen01';
 import TareaScreen02 from './src/screens/DesignHomeWork/TareaScreen02';
 import TareaScreen03 from './src/screens/DesignHomeWork/TareaScreen03';
+import TareaScreen04 from './src/screens/DesignHomeWork/TareaScreen04';
 
 const App = () => {
 
@@ -36,7 +37,8 @@ const App = () => {
       {/* <FlexboxWrapScreen /> */}
       {/* < TareaScreen01 /> */}
       {/* < TareaScreen02 /> */}
-      < TareaScreen03 />
+      {/* < TareaScreen03 /> */}
+      < TareaScreen04 />
     </SafeAreaView>
   )
 }
