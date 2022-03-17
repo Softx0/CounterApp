@@ -19,6 +19,8 @@ import TareaScreen05 from './src/screens/DesignHomeWork/TareaScreen05';
 import TareaScreen06 from './src/screens/DesignHomeWork/TareaScreen06';
 import TareaScreen07 from './src/screens/DesignHomeWork/TareaScreen07';
 import TareaScreen08 from './src/screens/DesignHomeWork/TareaScreen08';
+import TareaScreen09 from './src/screens/DesignHomeWork/TareaScreen09';
+import TareaScreen10 from './src/screens/DesignHomeWork/TareaScreen10';
 
 const App = () => {
 
@@ -46,7 +48,9 @@ const App = () => {
       {/* < TareaScreen05 /> */}
       {/* < TareaScreen06 /> */}
       {/* < TareaScreen07 /> */}
-      < TareaScreen08 />
+      {/* < TareaScreen08 /> */}
+      {/* < TareaScreen09 /> */}
+      < TareaScreen10 />
     </SafeAreaView>
   )
 }
