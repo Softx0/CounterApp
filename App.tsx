@@ -13,6 +13,7 @@ import HolaMundoScreen from './src/screens/HolaMundoScreen';
 import PositionScreen from './src/screens/PositionScreen';
 import TareaScreen01 from './src/screens/DesignHomeWork/TareaScreen01';
 import TareaScreen02 from './src/screens/DesignHomeWork/TareaScreen02';
+import TareaScreen03 from './src/screens/DesignHomeWork/TareaScreen03';
 
 const App = () => {
 
@@ -34,7 +35,8 @@ const App = () => {
       {/* <FlexboxAlignSelfScreen /> */}
       {/* <FlexboxWrapScreen /> */}
       {/* < TareaScreen01 /> */}
-      < TareaScreen02 />
+      {/* < TareaScreen02 /> */}
+      < TareaScreen03 />
     </SafeAreaView>
   )
 }

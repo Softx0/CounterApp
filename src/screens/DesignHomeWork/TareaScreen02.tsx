@@ -1,8 +1,7 @@
 import React from 'react'
 import { StyleSheet, Text, useWindowDimensions, View } from 'react-native'
 
-const TareaScreen02
-    = () => {
+const TareaScreen02 = () => {
 
         const { width } = useWindowDimensions();
 
