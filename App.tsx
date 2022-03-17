@@ -11,13 +11,15 @@ import FlexboxScreen from './src/screens/FlexboxScreen';
 import FlexboxWrapScreen from './src/screens/FlexboxWrapScreen';
 import HolaMundoScreen from './src/screens/HolaMundoScreen';
 import PositionScreen from './src/screens/PositionScreen';
+import TareaScreen01 from './src/screens/DesignHomeWork/TareaScreen01';
+import TareaScreen02 from './src/screens/DesignHomeWork/TareaScreen02';
 
 const App = () => {
 
 
 
   return (
-    <SafeAreaView style={{ flex: 1 }}>
+    <SafeAreaView style={{ flex: 1, backgroundColor: '#28425B' }}>
       {/*
       <HolaMundoScreen />
       <ContadorScreen /> 
@@ -30,8 +32,9 @@ const App = () => {
       {/* <FlexBoxJustifyContentScreen /> */}
       {/* <FlexboxAlignItemsScreen /> */}
       {/* <FlexboxAlignSelfScreen /> */}
-      <FlexboxWrapScreen />
-      
+      {/* <FlexboxWrapScreen /> */}
+      {/* < TareaScreen01 /> */}
+      < TareaScreen02 />
     </SafeAreaView>
   )
 }
